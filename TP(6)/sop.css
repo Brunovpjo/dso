@@ -1,0 +1,17 @@
+
+p,li {
+   margin-left: 40px;
+   margin-right: 40px;
+   text-align: justify;
+   font-family: 'Roboto Mono', monospace;
+}
+h1, h4 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  background-color: #808080;
+  border-top:0;
+  margin-block-start: 0em;
+  margin-top: 0;
+  padding:1%;
+}

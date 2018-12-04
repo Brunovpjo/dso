@@ -1,0 +1,99 @@
+img{
+  width: 200px;
+  height: 200px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2, h4 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  background-color: #808080;
+  border-top:0;
+  margin-block-start: 0em;
+  margin-top: 0;
+  padding:1%;
+}
+
+
+#artPOPright{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 20px;
+  float: right;
+
+}
+#artPOPleft{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  float: left;
+}
+header{
+  background-color: ;
+}
+main{
+  top: 0px;
+}
+#nav-wrapper img{
+  width: 30px;
+  height: 30px;
+}
+#outra{
+  margin-top: 15px;
+  width: 50%;
+  margin-left: 25%;
+}
+#grammy{
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+li{
+  display: flex;
+  justify-content: center;
+
+}
+#carrega, #salva{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  display: inline;
+}
+#ADDMUSIC{
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+}
+h3{
+  text-align: center;
+}
+#blackpink{
+  position: fixed;
+  right: 3px;
+  bottom :5px;
+  font-size: 50px;
+}
+p, #amo{
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+
+}
+#arr{
+  float: left;
+}
+
+.icone {
+  float: left;
+  border-radius:50%;
+  height:7%;
+  width:7%;
+}

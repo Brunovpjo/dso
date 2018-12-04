@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Short+Stack" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker|Short+Stack" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Playlist</title>
+
+  </head>
+  <header>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Like a HIT<i class="material-icons">audiotrack</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artistas.html">Artistas</a></li>
+        <li><a href="playlist.html">Lista de Músicas</a></li>
+    </div>
+  </nav>
+  </header>
+  <body>
+    <main>
+      <div class="container">
+        <h2>Criador de Playlists</h2>
+        <p>Aqui você deixa o nome de suas músicas favoritas que salvamos pra você quando se lembrar de salvar!</p>
+        <div id="Musica">
+          <input type="text" id="Musicadesejada" class = "grey" placeholder="Nome do HINO!">
+        <button id="ADDMUSIC" class="btn waves-effect purple waves-light" type="submit" name="action">Adicionar
+        </button>
+        </div>
+        <button class="btn waves-effect purple waves-light" id = "salva">Salvar lista!</button>
+        <button class="btn waves-effect purple waves-light" id = "carrega">Mostrar lista salva!</button>
+        <ul id="Musicas">
+        </ul>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="maley.js"></script>
+
+  </body>
+</html>
